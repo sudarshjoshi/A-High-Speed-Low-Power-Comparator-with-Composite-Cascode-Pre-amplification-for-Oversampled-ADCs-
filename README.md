@@ -6,7 +6,7 @@ is to design a comparator for oversampled ADC application.
 This comparator is designed using 28nm CMOS
 technology with a power supply of 1.8V. Pre and post layout
 simulation of the proposed circuit is done using synopsys costom compiler tool.
-The total power consumption of the comparator is 71.61µW
+The total power consumption of the comparator is 65.88µW
 and unity gain-bandwidth is 1GHz. The DC offset voltage is
 12mV, gain is 70dB while total area occupied by comparator
 is 684µm2
