@@ -127,7 +127,7 @@ Fig 8. Testing final design for power calculations.
 
 
 <p align="center">
-<img src="(https://user-images.githubusercontent.com/100463400/156126749-917fdb5e-e82a-4efc-90ce-7df82060e5ef.JPG">
+<img src="https://user-images.githubusercontent.com/100463400/156126749-917fdb5e-e82a-4efc-90ce-7df82060e5ef.JPG">
 </p>
 
 <p align="center">
