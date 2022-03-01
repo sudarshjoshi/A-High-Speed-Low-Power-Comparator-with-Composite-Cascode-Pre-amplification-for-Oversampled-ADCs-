@@ -130,9 +130,9 @@ Fig 8. Testing final design for power calculations.
 ![power wave forms](https://user-images.githubusercontent.com/100463400/156181855-5a885339-a2ec-4a1d-bfea-682091e73b00.JPG)
  
 </p>
-<b>Power calculation</b>
-Power=Imax*VDD
-     =36.6u*1.8
+<b>Power calculation</b><br>
+Power=Imax*VDD<br>
+     =36.6u*1.8<br>
      =65.88uW
 
 
