@@ -53,12 +53,12 @@ technologies.
 
 ## Performance Comparison
 
-|               |      [1]      |      [2]      |   This work   |
-|     :---:     |     :---:     |     :---:     |     :---:     |
-|     Vdd (V)   |      5.0      |      1.2      |      1.8      |
-|Frequency (GHz)|     0.433     |      4.0      |     0.45      |
-|Technology (nm)|      700      |      180      |      28       |
-|     Gain      |      3.35     |      1.3      |     1.015     |
-|  Power (mW)   |       3       |      7.1      |      0.54     |
-|Chip Size (mm sq)|       -       |      0.82      |      -     |
+|               |      [1]      |   This work   |
+|     :---:     |     :---:     |     :---:     |
+|     Vdd (V)   |      1.2      |      1.8      |
+|Frequency (GHz)|      4.0      |     0.45      |
+|Technology (nm)|      180      |      28       |
+|     Gain      |      1.3      |     1.015     |
+|  Power (mW)   |      71.5uW      |      65.88uW     |
+|Chip Size (mm sq)    0.82      |      -     |
 The table presents performance comparison with previously done work in literature. A clear trade off between gain and power can be observed here. The chip area can be determined with post layout measurements and is expected to be smaller than higher technology nodes.
