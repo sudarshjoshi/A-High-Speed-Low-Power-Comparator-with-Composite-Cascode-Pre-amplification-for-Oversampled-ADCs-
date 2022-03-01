@@ -121,6 +121,14 @@ The simulation of mixer was performed using specifications as presented in [1]. 
 <p align="center">
 Fig 7. DFT of output waveform
 </p>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/100463400/156126726-205e01a7-ae32-4577-a4d4-20b1fdbba13a.JPG">
+</p>
+<p align="center">
+Fig 7. Testing final design for power calculations.
+</p>
+
+
 
 ## Performance Comparison
 
