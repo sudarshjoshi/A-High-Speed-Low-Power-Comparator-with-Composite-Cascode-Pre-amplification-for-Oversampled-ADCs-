@@ -174,4 +174,21 @@ Sudarsh Joshi, m.Tech, Thapar Institute of Engineering and Technology Patiala, p
 - [Synopsis Team/Company](synopsys.com/company/contact-synopsys/office-locations/india/about-synopsys-india.html)
 - [IIT Hyderabad](https://www.iith.ac.in/events/2022/02/15/Cloud-Based-Analog-IC-Design-Hackathon/)
 
+## References
+1. P. E. Allen and D. R. Holberg, CMOS Analog Circuit Design, IInd
+Ed., New York: Oxford University Press, 2004..
+2. R. He and L. Zhang, “Evalutation of modern MOSFET models
+for bulk driven applications,” in Proc. IEEE 51st Midwest Symp.
+on Circuits and Systems, 2008, pp. 105-108.
+3. S. S. Rajput and S. S. Jamuar, “Low voltage, low power, high
+performance current mirror for portable analogue and mixed mode
+applications,” in Proc. IEEE Circuits, Devices and Systems, vol.
+148, 2002, pp. 273-278.
+4. C. G. Yu and R. L. Geiger, “Very low voltage operational
+amplifiers usign floating gate MOS transistor,” in IEEE Int. Symp.
+on Ciruits and Systems, vol. 2, 1993, pp. 1152-1155.
+5. D. J. Comer, D. T. Comer, and C. Petrie, “The utillity of
+composite cascode on analog CMOS design,” Int. J.of Electronics,
+vol. 91, no. 8, pp. 491-502, 2004. 
+
 
