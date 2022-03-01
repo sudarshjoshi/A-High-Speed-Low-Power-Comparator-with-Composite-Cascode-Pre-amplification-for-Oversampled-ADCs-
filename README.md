@@ -51,7 +51,7 @@ voltage design is that threshold voltage and VDSAT does
 not scale down with supply voltage or with smaller size
 technologies.
 
-#circuit design
+## circuit design
 
 ![diffampschematic](https://user-images.githubusercontent.com/100463400/156126708-30cda077-2d68-44e8-add2-c5de61fa3ba9.JPG)
 ![diffampsymbol](https://user-images.githubusercontent.com/100463400/156126712-0ce353a7-5aad-408f-a43e-3d6e772ca81f.JPG)
@@ -66,17 +66,17 @@ technologies.
 ![proposed3](https://user-images.githubusercontent.com/100463400/156126735-3e199e03-a49b-4715-92b0-799f52f25e27.JPG)
 ![pushpullsymbol](https://user-images.githubusercontent.com/100463400/156126737-717e705d-2641-4333-9a45-a788c9f09973.JPG)
 ![pushpuullschematic](https://user-images.githubusercontent.com/100463400/156126739-d7a0658e-8392-4537-9d6f-8c0d3a5ae268.JPG)
-![SIMLATIONRESLTS](https://user-images.githubusercontent.com/100463400/156126741-eba4f177-cf38-4fb5-8ce1-5b2a75dcb742.JPG)
+
 ![Capture3](https://user-images.githubusercontent.com/100463400/156126744-a60986a6-c5a6-4bae-af84-c82b322c4424.JPG)
 ![Capture4](https://user-images.githubusercontent.com/100463400/156126745-bef7a2ca-7ffd-4726-b557-705ffc34550f.JPG)
 ![currentforpower](https://user-images.githubusercontent.com/100463400/156126749-917fdb5e-e82a-4efc-90ce-7df82060e5ef.JPG)
-![dccharacterstics](https://user-images.githubusercontent.com/100463400/156126750-3a359606-f9f6-46d1-bb0f-0dfbefe133bb.JPG)
+![dccharacterstics]()
 
 
 
 ## Simulation Results
 <p align="center">
-<img src="https://user-images.githubusercontent.com/41693726/155828213-806a2334-16f8-49d9-be31-1632b2d17759.png">
+<img src="https://user-images.githubusercontent.com/100463400/156126741-eba4f177-cf38-4fb5-8ce1-5b2a75dcb742.JPG">
 </p>
 <p align="center">
 Fig 6. Mixer simulation input and output waveforms
@@ -84,7 +84,7 @@ Fig 6. Mixer simulation input and output waveforms
 The simulation of mixer was performed using specifications as presented in [1]. Fig 6. shows the mixer output waveform obtained by applying f_RF = 50MHz and f_LO = 450MHz. The resulting output signal has a frequency IF_1 = 400MHz and IF_2  = 500MHz. Note that the mixer provides almost unity gain or a conversion gain of 0.131dB precisely.
 <br/>
 <p align="center">
-<img src="https://user-images.githubusercontent.com/41693726/155828222-2450f627-bf53-462a-b0da-fac1b0b3abcc.png">
+<img src="https://user-images.githubusercontent.com/100463400/156126750-3a359606-f9f6-46d1-bb0f-0dfbefe133bb.JPG">
 </p>
 <p align="center">
 Fig 7. DFT of output waveform
@@ -121,11 +121,9 @@ Finally, Fig 10. presents the DC transfer curves of the designed mixer. The mixe
 |               |      [1]      |   This work   |
 |     :---:     |     :---:     |     :---:     |
 |     Vdd (V)   |      1.2      |      1.8      |
-|Frequency (GHz)|      4.0      |     0.45      |
 |Technology (nm)|      180      |      28       |
-|     Gain      |      1.3      |     1.015     |
 |  Power (mW)   |      71.5uW      |      65.88uW     |
-|Chip Size (mm sq)    0.82      |      -     |
+|Chip Size (mm sq)    0.82      |      -    |
 The table presents performance comparison with previously done work in literature. A clear trade off between gain and power can be observed here. The chip area can be determined with post layout measurements and is expected to be smaller than higher technology nodes.
 ## Conclusion
 The repository presents the design and simulation of Gilbert cell based mixer on 28nm technology node. The design consumes  f power at 1.8V and provides nearly unity gain. Future works can include improvement of conversion gain and increase in linearity by using better designs and biasing techniques. 
