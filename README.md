@@ -51,6 +51,29 @@ voltage design is that threshold voltage and VDSAT does
 not scale down with supply voltage or with smaller size
 technologies.
 
+#circuit design
+
+![diffampschematic](https://user-images.githubusercontent.com/100463400/156126708-30cda077-2d68-44e8-add2-c5de61fa3ba9.JPG)
+![diffampsymbol](https://user-images.githubusercontent.com/100463400/156126712-0ce353a7-5aad-408f-a43e-3d6e772ca81f.JPG)
+![finalcircit](https://user-images.githubusercontent.com/100463400/156126713-08c196e0-fa73-41ef-b5d4-4f350c7aaf46.JPG)
+![latchschematic](https://user-images.githubusercontent.com/100463400/156126719-226b17bd-1490-473d-be0a-7b2ebc25b04f.JPG)
+![latchsymbol](https://user-images.githubusercontent.com/100463400/156126721-128e2d70-b2c0-4bb6-a85d-c6628c9b0352.JPG)
+![power wave forms](https://user-images.githubusercontent.com/100463400/156126725-435c6ece-1d1e-4149-b5eb-f4c728e17fad.JPG)
+![powercalclations](https://user-images.githubusercontent.com/100463400/156126726-205e01a7-ae32-4577-a4d4-20b1fdbba13a.JPG)
+![preampschematic](https://user-images.githubusercontent.com/100463400/156126729-b264500f-b4ce-4526-9625-697168610245.JPG)
+![preampsymbol](https://user-images.githubusercontent.com/100463400/156126731-0d9065ac-85a2-4e53-90af-a32cf278dd0c.JPG)
+![proposed](https://user-images.githubusercontent.com/100463400/156126733-8a740808-9668-469a-ba08-25098269c638.JPG)
+![proposed3](https://user-images.githubusercontent.com/100463400/156126735-3e199e03-a49b-4715-92b0-799f52f25e27.JPG)
+![pushpullsymbol](https://user-images.githubusercontent.com/100463400/156126737-717e705d-2641-4333-9a45-a788c9f09973.JPG)
+![pushpuullschematic](https://user-images.githubusercontent.com/100463400/156126739-d7a0658e-8392-4537-9d6f-8c0d3a5ae268.JPG)
+![SIMLATIONRESLTS](https://user-images.githubusercontent.com/100463400/156126741-eba4f177-cf38-4fb5-8ce1-5b2a75dcb742.JPG)
+![Capture3](https://user-images.githubusercontent.com/100463400/156126744-a60986a6-c5a6-4bae-af84-c82b322c4424.JPG)
+![Capture4](https://user-images.githubusercontent.com/100463400/156126745-bef7a2ca-7ffd-4726-b557-705ffc34550f.JPG)
+![currentforpower](https://user-images.githubusercontent.com/100463400/156126749-917fdb5e-e82a-4efc-90ce-7df82060e5ef.JPG)
+![dccharacterstics](https://user-images.githubusercontent.com/100463400/156126750-3a359606-f9f6-46d1-bb0f-0dfbefe133bb.JPG)
+
+
+
 ## Simulation Results
 <p align="center">
 <img src="https://user-images.githubusercontent.com/41693726/155828213-806a2334-16f8-49d9-be31-1632b2d17759.png">
