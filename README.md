@@ -89,7 +89,7 @@ Fig 3 . Schematic and symbol of Latch
 Fig 2 . Schematic and symbol of Self biased diffrential amplifier
 </p><br>
 4. The last stage is a pushpull driver. This driver is a cmos logic that drives the output to vdd and gnd(higgh and low) depending on the corresponding inputs.
-5. <br>
+ <br>
 <p align="center">
 <img src="https://user-images.githubusercontent.com/100463400/156126739-d7a0658e-8392-4537-9d6f-8c0d3a5ae268.JPG">
  <img src="https://user-images.githubusercontent.com/100463400/156126737-717e705d-2641-4333-9a45-a788c9f09973.JPG">
@@ -97,7 +97,7 @@ Fig 2 . Schematic and symbol of Self biased diffrential amplifier
 <p align="center">
 Fig 4 . Schematic and symbol of Pushpull driver
 </p> 
-After connecting all the blocks as shown in the figure 5 we get the final design of the compparator.
+5. After connecting all the blocks as shown in the figure 5 we get the final design of the compparator. Two sine voltages phase shifted by 90 degrees and of magnitude 0.8V are applied to the inputs of cascode amplifier. Vdd is taken 1.8V and outpt is taken from puushpull driver.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/100463400/156126713-08c196e0-fa73-41ef-b5d4-4f350c7aaf46.JPG">
