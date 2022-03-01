@@ -22,15 +22,6 @@ The total power consumption of the comparator is 65.88µW and the total approxim
 is 29.16µm2.
 
 ## Introduction
-Analog to digital conversion is a key factor in any
-electronic system. The analog data is converted to digital
-data so that processing could be easy and storage of data
-can be possible. ADC is categorized into Nyquist rate
-ADC and oversampled ADC. Conventional Nyquist rate
-converters need analog components which must be highly
-immune to noise and interface, but oversampling
-converters can be designed using simple and high
-tolerance analog components.
 Comparators play a very important role in analog to
 digital conversion for increasing the overall performance
 of the system. Usually in any ADC the comparator
@@ -64,7 +55,7 @@ more power efficient.
 Fig 1 . Schematic and symbol Composite cascode preamplifier
 </p>
 <br>
-2.The second stage is a latch circuit formed by
+2. The second stage is a latch circuit formed by
 the cross coupled NMOS pair. The output
 of preamplifier acts as input of latch.
 <br>
@@ -79,7 +70,7 @@ of preamplifier acts as input of latch.
 Fig 3 . Schematic and symbol of Latch
 </p>
 <br>
-3. The outputs of latch goes to the inputs of third stage which is a diffrential amplifier. The differential ampplifier compares the voltage difference of othe the inputs and returns the corresponding high and low values to the inpput of next stage. 
+3. The outputs of latch goes to the inputs of third stage which is a diffrential amplifier. The differential ampplifier compares the voltage difference of othe the inputs and returns the corresponding high and low values to the input of next stage. 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/100463400/156126708-30cda077-2d68-44e8-add2-c5de61fa3ba9.JPG">
  <img src="https://user-images.githubusercontent.com/100463400/156126712-0ce353a7-5aad-408f-a43e-3d6e772ca81f.JPG">
@@ -112,7 +103,7 @@ Fig 5 . Schematic and symbol of final circuit.
 <img src="https://user-images.githubusercontent.com/100463400/156126741-eba4f177-cf38-4fb5-8ce1-5b2a75dcb742.JPG">
 </p>
 <p align="center">
-Fig 6. Mixer simulation input and output waveforms
+Fig 6. Transient response of comparator
 </p>
 The simulation of mixer was performed using specifications as presented in [1]. Fig 6. shows the mixer output waveform obtained by applying f_RF = 50MHz and f_LO = 450MHz. The resulting output signal has a frequency IF_1 = 400MHz and IF_2  = 500MHz. Note that the mixer provides almost unity gain or a conversion gain of 0.131dB precisely.
 <br/>
@@ -120,7 +111,7 @@ The simulation of mixer was performed using specifications as presented in [1]. 
 <img src="https://user-images.githubusercontent.com/100463400/156126750-3a359606-f9f6-46d1-bb0f-0dfbefe133bb.JPG">
 </p>
 <p align="center">
-Fig 7. DFT of output waveform
+Fig 7. The DC characteristic of comparator
 </p>
 <p align="center">
 <img src="https://user-images.githubusercontent.com/100463400/156126726-205e01a7-ae32-4577-a4d4-20b1fdbba13a.JPG">
@@ -146,10 +137,10 @@ Fig 7. maximum current through vdd.
 |  Power (mW)   |      71.5uW      |      65.88uW     |
 |Chip Size (um sq) |   694um2      |      29.16um2    |
 <br>
-The table presents performance comparison with previously done work in literature. A clear trade off between gain and power can be observed here. The chip area can be determined with post layout measurements and is expected to be smaller than higher technology nodes.
+The table presents performance comparison with previously done work in literature. It is clearly observed that we have significant reduction in the chip size(Area). We were also ale to reduce the the power 5.62uW even after using supply of 1.8V.
 
 ## Conclusion
-The repository presents the design and simulation of Gilbert cell based mixer on 28nm technology node. The design consumes  f power at 1.8V and provides nearly unity gain. Future works can include improvement of conversion gain and increase in linearity by using better designs and biasing techniques. 
+The repository presents the design and simulation of Composite cascode comparator with 28nm technology node. The design consumes 65.88uW power at 1.8V and area reduced to 29.16um2 from 694um2.
 
 ## Author
 Sudarsh Joshi, m.Tech, Thapar Institute of Engineering and Technology Patiala, punjab.
