@@ -20,10 +20,7 @@ This comparator is designed using 28nm CMOS
 technology with a power supply of 1.8V. Pre and post layout
 simulation of the proposed circuit is done using synopsys costom compiler tool.
 The total power consumption of the comparator is 65.88µW and the total approximated area occupied by comparator
-is 29.16µm2
-. This design achieves an OSR (Oversampling
-Sampling Ratio) greater than 1000 which corresponds to
-SNR improvement of 30dB for Σ-Δ converters.
+is 29.16µm2.
 ## Introduction
 Analog to digital conversion is a key factor in any
 electronic system. The analog data is converted to digital
@@ -53,6 +50,9 @@ technologies.
 <p align="center">
 <img src="https://user-images.githubusercontent.com/100463400/156126708-30cda077-2d68-44e8-add2-c5de61fa3ba9.JPG">
  <img src="https://user-images.githubusercontent.com/100463400/156126712-0ce353a7-5aad-408f-a43e-3d6e772ca81f.JPG">
+</p>
+<p align="center">
+Fig . Schematic and symol of Composite cascode preamplifier
 </p>
 
 
@@ -98,7 +98,7 @@ Fig 7. DFT of output waveform
 |     Vdd (V)   |      1.2      |      1.8      |
 |Technology (nm)|      180      |      28       |
 |  Power (mW)   |      71.5uW      |      65.88uW     |
-|Chip Size (um sq)    694um2      |      29.16um2    |
+|Chip Size (um sq) |   694um2      |      29.16um2    |
 <br>
 The table presents performance comparison with previously done work in literature. A clear trade off between gain and power can be observed here. The chip area can be determined with post layout measurements and is expected to be smaller than higher technology nodes.
 
