@@ -127,7 +127,11 @@ Fig 8. Testing final design for power calculations.
 
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/100463400/156126725-435c6ece-1d1e-4149-b5eb-f4c728e17fad.JPG">
+<img src="(https://user-images.githubusercontent.com/100463400/156126749-917fdb5e-e82a-4efc-90ce-7df82060e5ef.JPG">
+</p>
+
+<p align="center">
+Fig 9. Current wave form through.
 </p>
 
 <b>Power calculation</b><br>
