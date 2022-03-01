@@ -115,27 +115,33 @@ The DC characterstics atte presented in figure 7. The DC characterstics are otai
 <p align="center">
 Fig 7. The DC characteristic of comparator
 </p>
+To test the power consumed by the design we will check the maximum value of current offered y the supply vdd. TThe product of maximum current and spply voltage will provide power consumed by the circuit.
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/100463400/156126726-205e01a7-ae32-4577-a4d4-20b1fdbba13a.JPG">
 </p>
+
 <p align="center">
-Fig 7. Testing final design for power calculations.
-</p>![power wave forms](https://user-images.githubusercontent.com/100463400/156181855-5a885339-a2ec-4a1d-bfea-682091e73b00.JPG)
+Fig 8. Testing final design for power calculations.
+</p>
 
 
 <p align="center">
-<img src="((https://user-images.githubusercontent.com/100463400/156181855-5a885339-a2ec-4a1d-bfea-682091e73b00.JPG">
+![power wave forms](https://user-images.githubusercontent.com/100463400/156181855-5a885339-a2ec-4a1d-bfea-682091e73b00.JPG)
  
 </p>
-<p align="center">
-Fig 7. maximum current through vdd.
-</p>
+<b>Power calculation</b>
+Power=Imax*VDD
+     =36.6u*1.8
+     =65.88uW
+
+
 
 <b>Area calculation</b><br>
 area of the chip can be calculated by:- <br>
 W/L raito of one transistor 1.5u/0.6u.<br>
 since w=1.5u and l=0.6u, area=(numer of transistors used*(w*l))+(20% of wire length)<br>
-Area = 27*1.5u*0.6u + (27*1.5u*0.6u)*20/100<br>
+Area = 27*(1.5u)*(0.6u) + (27*(1.5u)*(0.6u))*20/100<br>
 Area=29.16um2
 
       
@@ -163,5 +169,5 @@ Sudarsh Joshi, m.Tech, Thapar Institute of Engineering and Technology Patiala, p
 - Chinmay Panda, IIT Hyderabad
 - [Synopsis Team/Company](synopsys.com/company/contact-synopsys/office-locations/india/about-synopsys-india.html)
 - [IIT Hyderabad](https://www.iith.ac.in/events/2022/02/15/Cloud-Based-Analog-IC-Design-Hackathon/)
-- Active and vibrant hackathon community
+
 
