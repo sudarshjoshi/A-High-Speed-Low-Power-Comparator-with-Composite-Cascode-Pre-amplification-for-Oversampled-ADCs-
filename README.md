@@ -1,7 +1,7 @@
 # Design and Simulation of a Gilbert Cell based Mixer on CMOS 28nm Technology
 ## Table of Contents
-- [Abstract](https://github.com/sudarshjoshi/A-High-Speed-Low-Power-Comparator-with-Composite-Cascode-Pre-amplification-for-Oversampled-ADCs-/edit/main/README.md#introduction)
-- [Introduction](https://github.com/sudarshjoshi/A-High-Speed-Low-Power-Comparator-with-Composite-Cascode-Pre-amplification-for-Oversampled-ADCs-/edit/main/README.md#introduction)
+- [Abstract](https://github.com/sudarshjoshi/A-High-Speed-Low-Power-Comparator-with-Composite-Cascode-Pre-amplification-for-Oversampled-ADCs-/edit/main/README.md#Abstract)
+- [Introduction](https://github.com/sudarshjoshi/A-High-Speed-Low-Power-Comparator-with-Composite-Cascode-Pre-amplification-for-Oversampled-ADCs-/edit/main/README.md#Introduction)
 - [Device Characterization](https://github.com/sudarshjoshi/A-High-Speed-Low-Power-Comparator-with-Composite-Cascode-Pre-amplification-for-Oversampled-ADCs-/edit/main/README.md#device-characterization)
 - [Circuit Design](https://github.com/sudarshjoshi/A-High-Speed-Low-Power-Comparator-with-Composite-Cascode-Pre-amplification-for-Oversampled-ADCs-/edit/main/README.md#circuit-design)
 - [Simulation Results](https://github.com/sudarshjoshi/A-High-Speed-Low-Power-Comparator-with-Composite-Cascode-Pre-amplification-for-Oversampled-ADCs-/edit/main/README.md#simulation-results)
