@@ -62,3 +62,5 @@ technologies.
 |  Power (mW)   |      71.5uW      |      65.88uW     |
 |Chip Size (mm sq)    0.82      |      -     |
 The table presents performance comparison with previously done work in literature. A clear trade off between gain and power can be observed here. The chip area can be determined with post layout measurements and is expected to be smaller than higher technology nodes.
+## Conclusion
+The repository presents the design and simulation of Gilbert cell based mixer on 28nm technology node. The design consumes  f power at 1.8V and provides nearly unity gain. Future works can include improvement of conversion gain and increase in linearity by using better designs and biasing techniques. 
