@@ -19,10 +19,8 @@ is to design a comparator for oversampled ADC application.
 This comparator is designed using 28nm CMOS
 technology with a power supply of 1.8V. Pre and post layout
 simulation of the proposed circuit is done using synopsys costom compiler tool.
-The total power consumption of the comparator is 65.88µW
-and unity gain-bandwidth is 1GHz. The DC offset voltage is
-12mV, gain is 70dB while total area occupied by comparator
-is 684µm2
+The total power consumption of the comparator is 65.88µW and the total approximated area occupied by comparator
+is 29.16µm2
 . This design achieves an OSR (Oversampling
 Sampling Ratio) greater than 1000 which corresponds to
 SNR improvement of 30dB for Σ-Δ converters.
@@ -92,32 +90,6 @@ The simulation of mixer was performed using specifications as presented in [1]. 
 <p align="center">
 Fig 7. DFT of output waveform
 </p>
-Fig 7. shows the output signal's DFT normalized wrt to peak frequency component. As can be observed, the spectrum peaks around f = 400MHz and f = 500MHz confirming the multiplying property. Intrestingly figure also shows presence of a 50MHz component as some of the RF signal gets leaked to the output.
-<br/>
-<p align="center">
-<img src="https://user-images.githubusercontent.com/41693726/155829965-e9b49c90-fa84-4958-9092-fc9c61f89e83.png">
-</p>
-<p align="center">
-Fig 8. Testbench used to determine -3dB point
-</p>
-Fig 8. shows the testbench setup used to determine -3dB point for the mixer. A "vsource" element is used to provide the RF and LO signal of amplitude 100mV. AC analysis was performed by using the default frequency as sweep variable and the magnitude of output differential signal was set as output. Note that the output signals are terminated with two NMOS source follower circuits to simulate the effect of connecting the mixer to further stages in an IC. 
-<br/>
-<p align="center">
-<img src="https://user-images.githubusercontent.com/41693726/155829961-13622c5c-7f77-4aa9-aea0-61ac9921b12e.png">
-</p>
-<p align="center">
-Fig 9. Magnitude plot of output signal
-</p>
-Fig 9. shows that the -3dB point for the mixer is achieved at a frequency of 7.14GHz. Hence the mixer can be easily used for ISM band between 902MHz and 928MHz as well.
-<br/>
-<br/>
-<p align="center">
-<img src="https://user-images.githubusercontent.com/41693726/155830279-15d2d7ff-7a21-42c6-bea2-0e55e32a6a5f.png">
-</p>
-<p align="center">
-Fig 10. DC transfer curves of the mixer
-</p>
-Finally, Fig 10. presents the DC transfer curves of the designed mixer. The mixer lacks linearity especially for higher voltage levels of RF signal, this is evident from the unevenly spaced transfer curves which bunch up for higher RF voltage.
 
 ## Performance Comparison
 
@@ -126,8 +98,10 @@ Finally, Fig 10. presents the DC transfer curves of the designed mixer. The mixe
 |     Vdd (V)   |      1.2      |      1.8      |
 |Technology (nm)|      180      |      28       |
 |  Power (mW)   |      71.5uW      |      65.88uW     |
-|Chip Size (mm sq)    0.82      |      -    |
+|Chip Size (um sq)    694um2      |      29.16um2    |
+<br>
 The table presents performance comparison with previously done work in literature. A clear trade off between gain and power can be observed here. The chip area can be determined with post layout measurements and is expected to be smaller than higher technology nodes.
+
 ## Conclusion
 The repository presents the design and simulation of Gilbert cell based mixer on 28nm technology node. The design consumes  f power at 1.8V and provides nearly unity gain. Future works can include improvement of conversion gain and increase in linearity by using better designs and biasing techniques. 
 
