@@ -1,11 +1,10 @@
 # A High Speed Low Power Comparator with Composite Cascode Pre amplification for Oversampled ADCs with 28nm technology
+This repository presents the design of a High speed and low power comparator with composite cascode preamplification for oer sampled ADCs. It was implemented on synopsys custom compiler tool using 28nm technology.
 ## Table of Contents
 - [Abstract](https://github.com/sudarshjoshi/A-High-Speed-Low-Power-Comparator-with-Composite-Cascode-Pre-amplification-for-Oversampled-ADCs-/edit/main/README.md#Abstract)
 - [Introduction](https://github.com/sudarshjoshi/A-High-Speed-Low-Power-Comparator-with-Composite-Cascode-Pre-amplification-for-Oversampled-ADCs-/edit/main/README.md#Introduction)
-- [Device Characterization](https://github.com/sudarshjoshi/A-High-Speed-Low-Power-Comparator-with-Composite-Cascode-Pre-amplification-for-Oversampled-ADCs-/edit/main/README.md#device-characterization)
 - [Circuit Design](https://github.com/sudarshjoshi/A-High-Speed-Low-Power-Comparator-with-Composite-Cascode-Pre-amplification-for-Oversampled-ADCs-/edit/main/README.md#circuit-design)
 - [Simulation Results](https://github.com/sudarshjoshi/A-High-Speed-Low-Power-Comparator-with-Composite-Cascode-Pre-amplification-for-Oversampled-ADCs-/edit/main/README.md#simulation-results)
-- [Netlist](https://github.com/sudarshjoshi/A-High-Speed-Low-Power-Comparator-with-Composite-Cascode-Pre-amplification-for-Oversampled-ADCs-/edit/main/README.md#netlist)
 - [Performance Comparison](https://github.com/sudarshjoshi/A-High-Speed-Low-Power-Comparator-with-Composite-Cascode-Pre-amplification-for-Oversampled-ADCs-/edit/main/README.md#performance-comparison)
 - [Conclusion](https://github.com/sudarshjoshi/A-High-Speed-Low-Power-Comparator-with-Composite-Cascode-Pre-amplification-for-Oversampled-ADCs-/edit/main/README.md#conclusion)
 - [Author](https://github.com/sudarshjoshi/A-High-Speed-Low-Power-Comparator-with-Composite-Cascode-Pre-amplification-for-Oversampled-ADCs-/edit/main/README.md#author) 
@@ -41,41 +40,64 @@ ADC for n bit resolution 2n
 needed). Hence intelligent design methodologies are
 highly needed for low power –reduced area design.
 With miniaturization of circuit, the design of
-comparators for low supply voltages (less than 3.3V) is a
+comparators for low supply voltages is a
 challenging task. The main cause of problem in low
 voltage design is that threshold voltage and VDSAT does
 not scale down with supply voltage or with smaller size
-technologies.
+technologies. This work presents a high speed uncompensated
+comparator with reduced area and power.
 
-## circuit design
+## Circuit design
+
+1.The first stage of the comparator circuit consist of a composite cascode preamplifier.This composite cascode stage has the following
+advantages over conventional cascode. First it reduces the
+bias headroom voltage required and second it provides
+higher output impedance at low bias current hence being
+more power efficient. 
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/100463400/156126729-b264500f-b4ce-4526-9625-697168610245.JPG">
  <img src="https://user-images.githubusercontent.com/100463400/156126731-0d9065ac-85a2-4e53-90af-a32cf278dd0c.JPG">
 </p>
+<br>
 <p align="center">
 Fig 1 . Schematic and symbol Composite cascode preamplifier
 </p>
-<p align="center">
-<img src="https://user-images.githubusercontent.com/100463400/156126708-30cda077-2d68-44e8-add2-c5de61fa3ba9.JPG">
- <img src="https://user-images.githubusercontent.com/100463400/156126712-0ce353a7-5aad-408f-a43e-3d6e772ca81f.JPG">
-</p>
-<p align="center">
-Fig 2 . Schematic and symbol of Self biased diffrential amplifier
-</p>
+<br>
+2.The second stage is a latch circuit formed by
+the cross coupled NMOS pair. The output
+of preamplifier acts as input of latch.
+<br>
+
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/100463400/156126719-226b17bd-1490-473d-be0a-7b2ebc25b04f.JPG">
  <img src="https://user-images.githubusercontent.com/100463400/156126712-0ce353a7-5aad-408f-a43e-3d6e772ca81f.JPG">
 </p>
+<br>
 <p align="center">
 Fig 3 . Schematic and symbol of Latch
 </p>
+<br>
+3. The outputs of latch goes to the inputs of third stage which is a diffrential amplifier. The differential ampplifier compares the voltage difference of othe the inputs and returns the corresponding high and low values to the inpput of next stage. 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/100463400/156126708-30cda077-2d68-44e8-add2-c5de61fa3ba9.JPG">
+ <img src="https://user-images.githubusercontent.com/100463400/156126712-0ce353a7-5aad-408f-a43e-3d6e772ca81f.JPG">
+</p>
+<br>
+<p align="center">
+Fig 2 . Schematic and symbol of Self biased diffrential amplifier
+</p><br>
+4. The last stage is a pushpull driver. This driver is a cmos logic that drives the output to vdd and gnd(higgh and low) depending on the corresponding inputs.
+5. <br>
 <p align="center">
 <img src="https://user-images.githubusercontent.com/100463400/156126739-d7a0658e-8392-4537-9d6f-8c0d3a5ae268.JPG">
  <img src="https://user-images.githubusercontent.com/100463400/156126737-717e705d-2641-4333-9a45-a788c9f09973.JPG">
 </p>
 <p align="center">
 Fig 4 . Schematic and symbol of Pushpull driver
-</p>
+</p> 
+After connecting all the blocks as shown in the figure 5 we get the final design of the compparator.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/100463400/156126713-08c196e0-fa73-41ef-b5d4-4f350c7aaf46.JPG">
