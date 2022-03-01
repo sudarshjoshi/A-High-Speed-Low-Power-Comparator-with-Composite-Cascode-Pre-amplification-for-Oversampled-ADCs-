@@ -127,9 +127,9 @@ Fig 8. Testing final design for power calculations.
 
 
 <p align="center">
-![power wave forms](https://user-images.githubusercontent.com/100463400/156181855-5a885339-a2ec-4a1d-bfea-682091e73b00.JPG)
- 
+<img src="https://user-images.githubusercontent.com/100463400/156126725-435c6ece-1d1e-4149-b5eb-f4c728e17fad.JPG">
 </p>
+
 <b>Power calculation</b><br>
 Power=Imax*VDD<br>
      =36.6u*1.8<br>
