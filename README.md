@@ -52,9 +52,12 @@ not scale down with supply voltage or with smaller size
 technologies.
 
 ## circuit design
+<p align="center">
+<img src="https://user-images.githubusercontent.com/100463400/156126708-30cda077-2d68-44e8-add2-c5de61fa3ba9.JPG">
+ <img src="https://user-images.githubusercontent.com/100463400/156126712-0ce353a7-5aad-408f-a43e-3d6e772ca81f.JPG">
+</p>
 
-![diffampschematic](https://user-images.githubusercontent.com/100463400/156126708-30cda077-2d68-44e8-add2-c5de61fa3ba9.JPG)
-![diffampsymbol](https://user-images.githubusercontent.com/100463400/156126712-0ce353a7-5aad-408f-a43e-3d6e772ca81f.JPG)
+
 ![finalcircit](https://user-images.githubusercontent.com/100463400/156126713-08c196e0-fa73-41ef-b5d4-4f350c7aaf46.JPG)
 ![latchschematic](https://user-images.githubusercontent.com/100463400/156126719-226b17bd-1490-473d-be0a-7b2ebc25b04f.JPG)
 ![latchsymbol](https://user-images.githubusercontent.com/100463400/156126721-128e2d70-b2c0-4bb6-a85d-c6628c9b0352.JPG)
