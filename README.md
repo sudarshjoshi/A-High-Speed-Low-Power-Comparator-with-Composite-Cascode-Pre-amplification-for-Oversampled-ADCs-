@@ -131,7 +131,7 @@ Fig 8. Testing final design for power calculations.
 </p>
 
 <p align="center">
-Fig 9. Current wave form through.
+Fig 9. Current wave form through vdd.
 </p>
 
 <b>Power calculation</b><br>
