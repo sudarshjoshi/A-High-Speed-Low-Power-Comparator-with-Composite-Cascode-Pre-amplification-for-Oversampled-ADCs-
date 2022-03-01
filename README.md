@@ -120,14 +120,26 @@ Fig 7. The DC characteristic of comparator
 </p>
 <p align="center">
 Fig 7. Testing final design for power calculations.
-</p>
+</p>![power wave forms](https://user-images.githubusercontent.com/100463400/156181855-5a885339-a2ec-4a1d-bfea-682091e73b00.JPG)
+
 
 <p align="center">
-<img src="(https://user-images.githubusercontent.com/100463400/156126749-917fdb5e-e82a-4efc-90ce-7df82060e5ef.JPG">
+<img src="((https://user-images.githubusercontent.com/100463400/156181855-5a885339-a2ec-4a1d-bfea-682091e73b00.JPG">
+ 
 </p>
 <p align="center">
 Fig 7. maximum current through vdd.
 </p>
+
+<b>Area calculation</b><br>
+area of the chip can be calculated by:- <br>
+W/L raito of one transistor 1.5u/0.6u.<br>
+since w=1.5u and l=0.6u, area=(numer of transistors used*(w*l))+(20% of wire length)<br>
+Area = 27*1.5u*0.6u + (27*1.5u*0.6u)*20/100<br>
+Area=29.16um2
+
+      
+
 
 
 ## Performance Comparison
