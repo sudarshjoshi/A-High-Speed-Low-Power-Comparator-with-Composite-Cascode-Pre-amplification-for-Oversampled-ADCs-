@@ -1,4 +1,16 @@
-# Abstract
+# Design and Simulation of a Gilbert Cell based Mixer on CMOS 28nm Technology
+## Table of Contents
+- [Introduction](https://github.com/SoumitroV/Design-and-Simulation-of-a-Gilbert-Cell-based-Mixer-on-CMOS-28nm-Technology/edit/main/README.md#introduction)
+- [Device Characterization](https://github.com/SoumitroV/Design-and-Simulation-of-a-Gilbert-Cell-based-Mixer-on-CMOS-28nm-Technology/edit/main/README.md#device-characterization)
+- [Circuit Design](https://github.com/SoumitroV/Design-and-Simulation-of-a-Gilbert-Cell-based-Mixer-on-CMOS-28nm-Technology/edit/main/README.md#circuit-design)
+- [Simulation Results](https://github.com/SoumitroV/Design-and-Simulation-of-a-Gilbert-Cell-based-Mixer-on-CMOS-28nm-Technology/edit/main/README.md#simulation-results)
+- [Netlist](https://github.com/SoumitroV/Design-and-Simulation-of-a-Gilbert-Cell-based-Mixer-on-CMOS-28nm-Technology/edit/main/README.md#netlist)
+- [Performance Comparison](https://github.com/SoumitroV/Design-and-Simulation-of-a-Gilbert-Cell-based-Mixer-on-CMOS-28nm-Technology/edit/main/README.md#performance-comparison)
+- [Conclusion](https://github.com/SoumitroV/Design-and-Simulation-of-a-Gilbert-Cell-based-Mixer-on-CMOS-28nm-Technology/edit/main/README.md#conclusion)
+- [Author](https://github.com/SoumitroV/Design-and-Simulation-of-a-Gilbert-Cell-based-Mixer-on-CMOS-28nm-Technology/edit/main/README.md#author) 
+- [Acknowledgements](https://github.com/SoumitroV/Design-and-Simulation-of-a-Gilbert-Cell-based-Mixer-on-CMOS-28nm-Technology/edit/main/README.md#acknowledgements)
+- [References](https://github.com/SoumitroV/Design-and-Simulation-of-a-Gilbert-Cell-based-Mixer-on-CMOS-28nm-Technology/edit/main/README.md#references)
+## Abstract
 Abstract—This paper presents a high speed- low power
 CMOS comparator using composite cascode differential
 pair as a pre-amplification stage. The purpose of this work
@@ -13,7 +25,7 @@ is 684µm2
 . This design achieves an OSR (Oversampling
 Sampling Ratio) greater than 1000 which corresponds to
 SNR improvement of 30dB for Σ-Δ converters.
-# Introduction
+## Introduction
 Analog to digital conversion is a key factor in any
 electronic system. The analog data is converted to digital
 data so that processing could be easy and storage of data
