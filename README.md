@@ -48,23 +48,51 @@ technologies.
 
 ## circuit design
 <p align="center">
+<img src="https://user-images.githubusercontent.com/100463400/156126729-b264500f-b4ce-4526-9625-697168610245.JPG">
+ <img src="https://user-images.githubusercontent.com/100463400/156126731-0d9065ac-85a2-4e53-90af-a32cf278dd0c.JPG">
+</p>
+<p align="center">
+Fig 1 . Schematic and symbol Composite cascode preamplifier
+</p>
+<p align="center">
 <img src="https://user-images.githubusercontent.com/100463400/156126708-30cda077-2d68-44e8-add2-c5de61fa3ba9.JPG">
  <img src="https://user-images.githubusercontent.com/100463400/156126712-0ce353a7-5aad-408f-a43e-3d6e772ca81f.JPG">
 </p>
 <p align="center">
-Fig . Schematic and symol of Composite cascode preamplifier
+Fig 2 . Schematic and symbol of Self biased diffrential amplifier
+</p>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/100463400/156126719-226b17bd-1490-473d-be0a-7b2ebc25b04f.JPG">
+ <img src="https://user-images.githubusercontent.com/100463400/156126712-0ce353a7-5aad-408f-a43e-3d6e772ca81f.JPG">
+</p>
+<p align="center">
+Fig 3 . Schematic and symbol of Latch
+</p>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/100463400/156126739-d7a0658e-8392-4537-9d6f-8c0d3a5ae268.JPG">
+ <img src="https://user-images.githubusercontent.com/100463400/156126737-717e705d-2641-4333-9a45-a788c9f09973.JPG">
+</p>
+<p align="center">
+Fig 4 . Schematic and symbol of Pushpull driver
+</p>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/100463400/156126713-08c196e0-fa73-41ef-b5d4-4f350c7aaf46.JPG">
+<p align="center">
+Fig 5 . Schematic and symbol of final circuit.
 </p>
 
 
-![finalcircit](https://user-images.githubusercontent.com/100463400/156126713-08c196e0-fa73-41ef-b5d4-4f350c7aaf46.JPG)
-![latchschematic](https://user-images.githubusercontent.com/100463400/156126719-226b17bd-1490-473d-be0a-7b2ebc25b04f.JPG)
-![latchsymbol](https://user-images.githubusercontent.com/100463400/156126721-128e2d70-b2c0-4bb6-a85d-c6628c9b0352.JPG)
+
+
+
+
 ![power wave forms](https://user-images.githubusercontent.com/100463400/156126725-435c6ece-1d1e-4149-b5eb-f4c728e17fad.JPG)
 ![powercalclations](https://user-images.githubusercontent.com/100463400/156126726-205e01a7-ae32-4577-a4d4-20b1fdbba13a.JPG)
-![preampschematic](https://user-images.githubusercontent.com/100463400/156126729-b264500f-b4ce-4526-9625-697168610245.JPG)
-![preampsymbol](https://user-images.githubusercontent.com/100463400/156126731-0d9065ac-85a2-4e53-90af-a32cf278dd0c.JPG)
+
 ![proposed](https://user-images.githubusercontent.com/100463400/156126733-8a740808-9668-469a-ba08-25098269c638.JPG)
 ![proposed3](https://user-images.githubusercontent.com/100463400/156126735-3e199e03-a49b-4715-92b0-799f52f25e27.JPG)
+
 ![pushpullsymbol](https://user-images.githubusercontent.com/100463400/156126737-717e705d-2641-4333-9a45-a788c9f09973.JPG)
 ![pushpuullschematic](https://user-images.githubusercontent.com/100463400/156126739-d7a0658e-8392-4537-9d6f-8c0d3a5ae268.JPG)
 
