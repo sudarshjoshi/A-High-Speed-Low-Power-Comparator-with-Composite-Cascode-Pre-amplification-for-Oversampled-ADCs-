@@ -51,6 +51,48 @@ voltage design is that threshold voltage and VDSAT does
 not scale down with supply voltage or with smaller size
 technologies.
 
+## Simulation Results
+<p align="center">
+<img src="https://user-images.githubusercontent.com/41693726/155828213-806a2334-16f8-49d9-be31-1632b2d17759.png">
+</p>
+<p align="center">
+Fig 6. Mixer simulation input and output waveforms
+</p>
+The simulation of mixer was performed using specifications as presented in [1]. Fig 6. shows the mixer output waveform obtained by applying f_RF = 50MHz and f_LO = 450MHz. The resulting output signal has a frequency IF_1 = 400MHz and IF_2  = 500MHz. Note that the mixer provides almost unity gain or a conversion gain of 0.131dB precisely.
+<br/>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/41693726/155828222-2450f627-bf53-462a-b0da-fac1b0b3abcc.png">
+</p>
+<p align="center">
+Fig 7. DFT of output waveform
+</p>
+Fig 7. shows the output signal's DFT normalized wrt to peak frequency component. As can be observed, the spectrum peaks around f = 400MHz and f = 500MHz confirming the multiplying property. Intrestingly figure also shows presence of a 50MHz component as some of the RF signal gets leaked to the output.
+<br/>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/41693726/155829965-e9b49c90-fa84-4958-9092-fc9c61f89e83.png">
+</p>
+<p align="center">
+Fig 8. Testbench used to determine -3dB point
+</p>
+Fig 8. shows the testbench setup used to determine -3dB point for the mixer. A "vsource" element is used to provide the RF and LO signal of amplitude 100mV. AC analysis was performed by using the default frequency as sweep variable and the magnitude of output differential signal was set as output. Note that the output signals are terminated with two NMOS source follower circuits to simulate the effect of connecting the mixer to further stages in an IC. 
+<br/>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/41693726/155829961-13622c5c-7f77-4aa9-aea0-61ac9921b12e.png">
+</p>
+<p align="center">
+Fig 9. Magnitude plot of output signal
+</p>
+Fig 9. shows that the -3dB point for the mixer is achieved at a frequency of 7.14GHz. Hence the mixer can be easily used for ISM band between 902MHz and 928MHz as well.
+<br/>
+<br/>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/41693726/155830279-15d2d7ff-7a21-42c6-bea2-0e55e32a6a5f.png">
+</p>
+<p align="center">
+Fig 10. DC transfer curves of the mixer
+</p>
+Finally, Fig 10. presents the DC transfer curves of the designed mixer. The mixer lacks linearity especially for higher voltage levels of RF signal, this is evident from the unevenly spaced transfer curves which bunch up for higher RF voltage.
+
 ## Performance Comparison
 
 |               |      [1]      |   This work   |
