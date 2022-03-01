@@ -99,13 +99,15 @@ Fig 5 . Schematic and symbol of final circuit.
 
 ## Simulation Results
 
+The transient analysis of the composite cascode comparator is shown in figure 6. The comparator output is high whenever the input signals are same and greater than zerro and the comparator outpput is low wheneer the input signals are equal and less than zerro. because of the pushpull driver the high and low vvalues of comparrator is 1.8V and 0V(vdd and gnd).
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/100463400/156126741-eba4f177-cf38-4fb5-8ce1-5b2a75dcb742.JPG">
 </p>
 <p align="center">
 Fig 6. Transient response of comparator
 </p>
-The simulation of mixer was performed using specifications as presented in [1]. Fig 6. shows the mixer output waveform obtained by applying f_RF = 50MHz and f_LO = 450MHz. The resulting output signal has a frequency IF_1 = 400MHz and IF_2  = 500MHz. Note that the mixer provides almost unity gain or a conversion gain of 0.131dB precisely.
+The DC characterstics atte presented in figure 7. The DC characterstics are otained by keeping one input signal to ground and sweeping another source linearly.
 <br/>
 <p align="center">
 <img src="https://user-images.githubusercontent.com/100463400/156126750-3a359606-f9f6-46d1-bb0f-0dfbefe133bb.JPG">
@@ -121,7 +123,7 @@ Fig 7. Testing final design for power calculations.
 </p>
 
 <p align="center">
-<img src="(https://user-images.githubusercontent.com/100463400/156126725-435c6ece-1d1e-4149-b5eb-f4c728e17fad.JPG">
+<img src="(https://user-images.githubusercontent.com/100463400/156126749-917fdb5e-e82a-4efc-90ce-7df82060e5ef.JPG">
 </p>
 <p align="center">
 Fig 7. maximum current through vdd.
