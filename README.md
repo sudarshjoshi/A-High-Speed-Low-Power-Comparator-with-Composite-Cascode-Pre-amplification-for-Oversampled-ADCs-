@@ -84,27 +84,6 @@ Fig 5 . Schematic and symbol of final circuit.
 </p>
 
 
-
-
-
-
-![power wave forms](https://user-images.githubusercontent.com/100463400/156126725-435c6ece-1d1e-4149-b5eb-f4c728e17fad.JPG)
-![powercalclations](https://user-images.githubusercontent.com/100463400/156126726-205e01a7-ae32-4577-a4d4-20b1fdbba13a.JPG)
-
-![proposed](https://user-images.githubusercontent.com/100463400/156126733-8a740808-9668-469a-ba08-25098269c638.JPG)
-![proposed3](https://user-images.githubusercontent.com/100463400/156126735-3e199e03-a49b-4715-92b0-799f52f25e27.JPG)
-
-![pushpullsymbol](https://user-images.githubusercontent.com/100463400/156126737-717e705d-2641-4333-9a45-a788c9f09973.JPG)
-![pushpuullschematic](https://user-images.githubusercontent.com/100463400/156126739-d7a0658e-8392-4537-9d6f-8c0d3a5ae268.JPG)
-
-![Capture3](https://user-images.githubusercontent.com/100463400/156126744-a60986a6-c5a6-4bae-af84-c82b322c4424.JPG)
-![Capture4](https://user-images.githubusercontent.com/100463400/156126745-bef7a2ca-7ffd-4726-b557-705ffc34550f.JPG)
-
-![currentforpower](https://user-images.githubusercontent.com/100463400/156126749-917fdb5e-e82a-4efc-90ce-7df82060e5ef.JPG)
-![dccharacterstics]()
-
-
-
 ## Simulation Results
 
 <p align="center">
@@ -128,6 +107,12 @@ Fig 7. DFT of output waveform
 Fig 7. Testing final design for power calculations.
 </p>
 
+<p align="center">
+<img src="(https://user-images.githubusercontent.com/100463400/156126725-435c6ece-1d1e-4149-b5eb-f4c728e17fad.JPG">
+</p>
+<p align="center">
+Fig 7. maximum current through vdd.
+</p>
 
 
 ## Performance Comparison
