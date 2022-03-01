@@ -21,6 +21,7 @@ technology with a power supply of 1.8V. Pre and post layout
 simulation of the proposed circuit is done using synopsys costom compiler tool.
 The total power consumption of the comparator is 65.88µW and the total approximated area occupied by comparator
 is 29.16µm2.
+
 ## Introduction
 Analog to digital conversion is a key factor in any
 electronic system. The analog data is converted to digital
@@ -98,12 +99,14 @@ Fig 5 . Schematic and symbol of final circuit.
 
 ![Capture3](https://user-images.githubusercontent.com/100463400/156126744-a60986a6-c5a6-4bae-af84-c82b322c4424.JPG)
 ![Capture4](https://user-images.githubusercontent.com/100463400/156126745-bef7a2ca-7ffd-4726-b557-705ffc34550f.JPG)
+
 ![currentforpower](https://user-images.githubusercontent.com/100463400/156126749-917fdb5e-e82a-4efc-90ce-7df82060e5ef.JPG)
 ![dccharacterstics]()
 
 
 
 ## Simulation Results
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/100463400/156126741-eba4f177-cf38-4fb5-8ce1-5b2a75dcb742.JPG">
 </p>
