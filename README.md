@@ -63,7 +63,7 @@ of preamplifier acts as input of latch.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/100463400/156126719-226b17bd-1490-473d-be0a-7b2ebc25b04f.JPG">
- <img src="https://user-images.githubusercontent.com/100463400/156126712-0ce353a7-5aad-408f-a43e-3d6e772ca81f.JPG">
+ <img src="https://user-images.githubusercontent.com/100463400/156126721-128e2d70-b2c0-4bb6-a85d-c6628c9b0352.JPG">
 </p>
 <br>
 <p align="center">
